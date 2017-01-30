@@ -15,6 +15,7 @@ namespace lb1
             this.a = a;
             this.b = b;
         }//added 
+        
         public static Complex operator +(Complex c1, Complex c2)
         {
             Complex res = new Complex(0, 0);
@@ -23,7 +24,7 @@ namespace lb1
             res.b = c1.b + c2.b;
 
             return res;
-        }
+        } // here we take the result
         public override string ToString()
         {
             return string.Format("{0} + {1}i", a, b);
