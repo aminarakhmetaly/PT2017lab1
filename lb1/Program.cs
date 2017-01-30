@@ -14,7 +14,7 @@ namespace lb1
         {
             this.a = a;
             this.b = b;
-        }
+        }//added 
         public static Complex operator +(Complex c1, Complex c2)
         {
             Complex res = new Complex(0, 0);
